@@ -2,7 +2,7 @@ const path = require('path');
 const webpack = require('webpack');
 
 module.exports = {
-    entry: ['./lib/index.js'],
+    entry: ['lib/index.js'],
     target: 'web',
     output: {
         path: __dirname,
